@@ -23,7 +23,7 @@ const TBODY_COMPONENTS = [
     CellModule,
   ],
   declarations: [
-    ...TBODY_COMPONENTS,
+    ...TBODY_COMPONENTS
   ],
   exports: [
     ...TBODY_COMPONENTS,

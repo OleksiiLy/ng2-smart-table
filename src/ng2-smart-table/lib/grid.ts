@@ -79,6 +79,10 @@ export class Grid {
     return this.dataSet.getRows();
   }
 
+  showDetails(row: Row) {
+    this.dataSet.showRowDetails(row);
+  }
+
   selectRow(row: Row) {
     this.dataSet.selectRow(row);
   }

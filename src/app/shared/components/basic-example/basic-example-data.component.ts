@@ -31,6 +31,20 @@ export class BasicExampleDataComponent {
       name: 'Leanne Graham',
       username: 'Bret',
       email: 'Sincere@april.biz',
+      details: [
+        {
+          label: 'Test1',
+          value: 'Some Value'
+        },
+        {
+          label: 'Test2',
+          value: 'Some Value'
+        },
+        {
+          label: 'Test3',
+          value: 'Some Value'
+        }
+      ]
     },
     {
       id: 2,

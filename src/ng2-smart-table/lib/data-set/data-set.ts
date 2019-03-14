@@ -43,6 +43,11 @@ export class DataSet {
     return this.rows.find((row: Row) => row.getData() === data);
   }
 
+  showRowDetails(row: Row): Row {
+    row.isDetailsShown = !row.isDetailsShown;
+    return row;
+  }
+
   deselectAll() {
     this.rows.forEach((row) => {
       row.isSelected = false;

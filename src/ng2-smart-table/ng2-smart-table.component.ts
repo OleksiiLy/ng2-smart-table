@@ -119,6 +119,7 @@ export class Ng2SmartTableComponent implements OnChanges {
   onUserSelectRow(row: Row) {
     if (this.grid.getSetting('selectMode') !== 'multi') {
       this.grid.selectRow(row);
+      this.grid.showDetails(row);
       this.emitUserSelectRow(row);
       this.emitSelectRow(row);
     }
